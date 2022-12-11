@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" href="./coding.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Expenses chart component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="main-container">
+    <div class="balance">
+      <div>
+        <p class="balance__title">My balance</p>
+        <p class="balance__total">$921.48</p>
+      </div>
+      <img class="balance__logo" src="./images/logo.svg" alt="logo">
+    </div>
+
+    <div class="chart">
+      <h2 class="chart__title">Spending - Last 7 days</h2>
+      <div class="chart__bars-container">
+
+      </div>
+
+      <div class="chart__analytics">
+        <div>
+          <p class="chart__total">Total this month</p>
+          <p class="chart__total-value">$478.33</p>
+        </div>
+        <div>
+          <p class="chart_percentage">+2.4%</p>
+          <p class="period">from last month</p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Luis Felipe García</a>.
+  </footer>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
